@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="stylesFormulario.css" />
+
     <title>Document</title>
 </head>
 <section class="container" >
@@ -56,6 +58,54 @@
 </form>
 </section>
 <body>
-    
+ 
+<section class="container" >
+        <header>
+            <IMG SRC="Imagenes/hatunsoft.jpeg" ALIGN=center WIDTH=400 HEIGHT=130>
+        </header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>NOMBRE COMPLETO</label>
+          <input type="text" placeholder="INGRESE SU NOMBRE COMPLETO" required />
+        </div>
+        <div class="input-box">
+          <label>CORREO</label>
+          <input type="text" placeholder="INGRESE SU CORREO ELECTRONICO" required />
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label>TELEFONO</label>
+            <input type="number" placeholder="INGRESE SU NUMERO DE TELEFONO" required />
+          </div>
+          <div class="input-box">
+            <label>FECHA DE NACIMIENTO</label>
+            <input type="date" placeholder="INGRESE SU FECHA DE NACIMIENTO" required />
+          </div>
+        </div>
+        <div class="gender-box">
+            <h3>GENERO</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">MASCULINO</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">FEMENINO</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">OTRAS PREFERENCIAS</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>DIRECCION</label>
+          <input type="text" placeholder="INGRESE LA CALLE 1" required />
+          <input type="text" placeholder="INGRESE LA CALLE 2" required />
+        </div>
+        <button>ENVIAR</button>
+      </form>
+    </section>   
 </body>
 </html>
